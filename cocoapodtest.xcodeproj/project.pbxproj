@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		350699A71E8CDF3D00BD6CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350699A61E8CDF3D00BD6CF4 /* main.m */; };
 		350699AA1E8CDF3D00BD6CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350699A91E8CDF3D00BD6CF4 /* AppDelegate.m */; };
-		350699AD1E8CDF3D00BD6CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350699AC1E8CDF3D00BD6CF4 /* ViewController.m */; };
 		350699B01E8CDF3D00BD6CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350699AE1E8CDF3D00BD6CF4 /* Main.storyboard */; };
 		350699B31E8CDF3D00BD6CF4 /* cocoapodtest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 350699B11E8CDF3D00BD6CF4 /* cocoapodtest.xcdatamodeld */; };
 		350699B51E8CDF3D00BD6CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350699B41E8CDF3D00BD6CF4 /* Assets.xcassets */; };
 		350699B81E8CDF3D00BD6CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350699B61E8CDF3D00BD6CF4 /* LaunchScreen.storyboard */; };
 		350699C31E8CDF3D00BD6CF4 /* cocoapodtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350699C21E8CDF3D00BD6CF4 /* cocoapodtestTests.m */; };
 		350699CE1E8CDF3D00BD6CF4 /* cocoapodtestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350699CD1E8CDF3D00BD6CF4 /* cocoapodtestUITests.m */; };
+		350699DE1E8CF9FD00BD6CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350699DD1E8CF9FD00BD6CF4 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		350699A61E8CDF3D00BD6CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		350699A81E8CDF3D00BD6CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		350699A91E8CDF3D00BD6CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		350699AB1E8CDF3D00BD6CF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		350699AC1E8CDF3D00BD6CF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		350699AF1E8CDF3D00BD6CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		350699B21E8CDF3D00BD6CF4 /* cocoapodtest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cocoapodtest.xcdatamodel; sourceTree = "<group>"; };
 		350699B41E8CDF3D00BD6CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		350699C91E8CDF3D00BD6CF4 /* cocoapodtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoapodtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		350699CD1E8CDF3D00BD6CF4 /* cocoapodtestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodtestUITests.m; sourceTree = "<group>"; };
 		350699CF1E8CDF3D00BD6CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350699DC1E8CF9FD00BD6CF4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		350699DD1E8CF9FD00BD6CF4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,7 @@
 		350699991E8CDF3D00BD6CF4 = {
 			isa = PBXGroup;
 			children = (
+				350699DB1E8CF9FD00BD6CF4 /* Classes */,
 				350699A41E8CDF3D00BD6CF4 /* cocoapodtest */,
 				350699C11E8CDF3D00BD6CF4 /* cocoapodtestTests */,
 				350699CC1E8CDF3D00BD6CF4 /* cocoapodtestUITests */,
@@ -105,8 +106,6 @@
 			children = (
 				350699A81E8CDF3D00BD6CF4 /* AppDelegate.h */,
 				350699A91E8CDF3D00BD6CF4 /* AppDelegate.m */,
-				350699AB1E8CDF3D00BD6CF4 /* ViewController.h */,
-				350699AC1E8CDF3D00BD6CF4 /* ViewController.m */,
 				350699AE1E8CDF3D00BD6CF4 /* Main.storyboard */,
 				350699B41E8CDF3D00BD6CF4 /* Assets.xcassets */,
 				350699B61E8CDF3D00BD6CF4 /* LaunchScreen.storyboard */,
@@ -141,6 +140,15 @@
 				350699CF1E8CDF3D00BD6CF4 /* Info.plist */,
 			);
 			path = cocoapodtestUITests;
+			sourceTree = "<group>";
+		};
+		350699DB1E8CF9FD00BD6CF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				350699DC1E8CF9FD00BD6CF4 /* ViewController.h */,
+				350699DD1E8CF9FD00BD6CF4 /* ViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				350699AD1E8CDF3D00BD6CF4 /* ViewController.m in Sources */,
 				350699B31E8CDF3D00BD6CF4 /* cocoapodtest.xcdatamodeld in Sources */,
 				350699AA1E8CDF3D00BD6CF4 /* AppDelegate.m in Sources */,
+				350699DE1E8CF9FD00BD6CF4 /* ViewController.m in Sources */,
 				350699A71E8CDF3D00BD6CF4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
