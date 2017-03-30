@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "testlib"
-  s.version      = "3.0"
+  s.version      = "4.0"
   s.summary      = "只是测试用"
   s.description  = <<-DESC
                    一个关于cocos的框架
