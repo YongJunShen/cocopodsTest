@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "testlib"
+  s.name         = "SYJTestlib"
   s.version      = "4.0"
   s.summary      = "只是测试用"
   s.description  = <<-DESC
